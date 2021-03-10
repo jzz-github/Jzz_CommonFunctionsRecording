@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16097.3"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SlideMenuViewControllerOne" customModule="JzzCommonFunctionsRecording" customModuleProvider="target">
+            <connections>
+                <outlet property="pageView" destination="a91-Ym-5qs" id="arc-EA-kWb"/>
+                <outlet property="titleView0" destination="BmC-xx-iYt" id="fYS-DJ-v5k"/>
+                <outlet property="titleView1" destination="W9Q-9Y-gOC" id="Oqi-1g-sby"/>
+                <outlet property="titleView2" destination="h6y-wR-W7a" id="3tn-ey-gk6"/>
+                <outlet property="titleView3" destination="Evx-k0-kvn" id="3WC-Pk-iEK"/>
+                <outlet property="titleView4" destination="Thx-MI-RaF" id="ZoD-hc-lis"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W9Q-9Y-gOC" customClass="GXSegmentTitleView" customModule="GXSegmentPageViewSample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="50" width="414" height="40"/>
+                    <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="MUr-uR-yXv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6y-wR-W7a" customClass="GXSegmentTitleView" customModule="GXSegmentPageViewSample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="100" width="414" height="40"/>
+                    <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="QrW-RD-LgN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Evx-k0-kvn" customClass="GXSegmentTitleView" customModule="GXSegmentPageViewSample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="150" width="414" height="40"/>
+                    <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="hia-4e-2IU"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Thx-MI-RaF" customClass="GXSegmentTitleView" customModule="GXSegmentPageViewSample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="210" width="414" height="40"/>
+                    <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="a1i-aJ-pLH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmC-xx-iYt" customClass="GXSegmentTitleView" customModule="GXSegmentPageViewSample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                    <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="gaT-YJ-mLu"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a91-Ym-5qs" customClass="GXSegmentPageView" customModule="GXSegmentPageViewSample" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="250" width="414" height="646"/>
+                    <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="a91-Ym-5qs" firstAttribute="top" secondItem="Thx-MI-RaF" secondAttribute="bottom" id="0vW-dj-PI7"/>
+                <constraint firstItem="Thx-MI-RaF" firstAttribute="trailing" secondItem="BmC-xx-iYt" secondAttribute="trailing" id="3WL-1S-AFR"/>
+                <constraint firstItem="W9Q-9Y-gOC" firstAttribute="trailing" secondItem="BmC-xx-iYt" secondAttribute="trailing" id="8dt-wS-M6F"/>
+                <constraint firstAttribute="bottom" secondItem="a91-Ym-5qs" secondAttribute="bottom" id="Ow1-kc-Bva"/>
+                <constraint firstItem="Evx-k0-kvn" firstAttribute="top" secondItem="h6y-wR-W7a" secondAttribute="bottom" constant="10" id="QON-fG-bsN"/>
+                <constraint firstItem="h6y-wR-W7a" firstAttribute="leading" secondItem="BmC-xx-iYt" secondAttribute="leading" id="UBs-Tu-BY4"/>
+                <constraint firstItem="Evx-k0-kvn" firstAttribute="leading" secondItem="BmC-xx-iYt" secondAttribute="leading" id="UG6-Yw-b8W"/>
+                <constraint firstItem="W9Q-9Y-gOC" firstAttribute="leading" secondItem="BmC-xx-iYt" secondAttribute="leading" id="UaF-1h-CeT"/>
+                <constraint firstItem="h6y-wR-W7a" firstAttribute="trailing" secondItem="BmC-xx-iYt" secondAttribute="trailing" id="Z3n-Ie-vv2"/>
+                <constraint firstItem="Evx-k0-kvn" firstAttribute="trailing" secondItem="BmC-xx-iYt" secondAttribute="trailing" id="abi-zJ-jYu"/>
+                <constraint firstItem="BmC-xx-iYt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="e7N-mW-BFn"/>
+                <constraint firstItem="W9Q-9Y-gOC" firstAttribute="top" secondItem="BmC-xx-iYt" secondAttribute="bottom" constant="10" id="fU3-c4-KxC"/>
+                <constraint firstItem="BmC-xx-iYt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fvd-ck-NV4"/>
+                <constraint firstAttribute="trailing" secondItem="BmC-xx-iYt" secondAttribute="trailing" id="h7S-OZ-sSB"/>
+                <constraint firstItem="Thx-MI-RaF" firstAttribute="leading" secondItem="BmC-xx-iYt" secondAttribute="leading" id="jPb-BV-tYb"/>
+                <constraint firstItem="a91-Ym-5qs" firstAttribute="leading" secondItem="BmC-xx-iYt" secondAttribute="leading" id="mKG-Qv-PnX"/>
+                <constraint firstItem="h6y-wR-W7a" firstAttribute="top" secondItem="W9Q-9Y-gOC" secondAttribute="bottom" constant="10" id="n5f-O6-gnu"/>
+                <constraint firstItem="Thx-MI-RaF" firstAttribute="top" secondItem="Evx-k0-kvn" secondAttribute="bottom" constant="20" id="obf-mQ-xd9"/>
+                <constraint firstItem="a91-Ym-5qs" firstAttribute="trailing" secondItem="BmC-xx-iYt" secondAttribute="trailing" id="vDw-Ok-lqu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="120"/>
+        </view>
+    </objects>
+</document>

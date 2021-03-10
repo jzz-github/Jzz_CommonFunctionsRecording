@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextChangeAnimationViewController" customModule="JzzCommonFunctionsRecording" customModuleProvider="target">
+            <connections>
+                <outlet property="h0" destination="wyv-Ak-21w" id="KZl-nX-oVO"/>
+                <outlet property="h1" destination="BoP-RG-Ywa" id="mzL-RT-X7k"/>
+                <outlet property="m0" destination="LuH-xO-8P5" id="GlS-rI-hqH"/>
+                <outlet property="m1" destination="Kde-7K-fsR" id="JTq-qv-u1N"/>
+                <outlet property="n1" destination="irO-2w-5KW" id="FNh-IQ-HjM"/>
+                <outlet property="n2" destination="88L-1w-n5e" id="vH1-uh-sl5"/>
+                <outlet property="n3" destination="IP9-eV-aS8" id="9cz-dE-fqG"/>
+                <outlet property="n4" destination="wU4-8A-xbD" id="n4m-EI-8At"/>
+                <outlet property="n5" destination="MPA-DZ-4mp" id="l7a-Zv-KtA"/>
+                <outlet property="n6" destination="bGu-vj-KhG" id="a4D-bD-DSz"/>
+                <outlet property="s0" destination="TUy-AM-dKh" id="j1M-HS-7B6"/>
+                <outlet property="s1" destination="zNX-Fm-Di9" id="eda-Fs-I7n"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHv-Qy-R8f">
+                    <rect key="frame" x="60" y="100" width="294" height="82"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="BoP-RG-Ywa" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="16" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="wyv-Ak-21w" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="53" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="Kde-7K-fsR" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="111" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="LuH-xO-8P5" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="148" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daV-6v-8Jt">
+                            <rect key="frame" x="96" y="25.5" width="7" height="31"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <color key="textColor" red="1" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-Za-bgG">
+                            <rect key="frame" x="191" y="25.5" width="7" height="31"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <color key="textColor" red="1" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="TUy-AM-dKh" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="243" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                    <color key="value" red="1" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="zNX-Fm-Di9" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="206" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                    <color key="value" red="0.0" green="0.42352941179999998" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="TUy-AM-dKh" firstAttribute="leading" secondItem="zNX-Fm-Di9" secondAttribute="trailing" constant="2" id="9sh-x1-1x5"/>
+                        <constraint firstItem="ISZ-Za-bgG" firstAttribute="centerY" secondItem="dHv-Qy-R8f" secondAttribute="centerY" id="AXP-kJ-zdt"/>
+                        <constraint firstAttribute="bottom" secondItem="Kde-7K-fsR" secondAttribute="bottom" constant="16" id="BaX-Xk-rJr"/>
+                        <constraint firstAttribute="bottom" secondItem="LuH-xO-8P5" secondAttribute="bottom" constant="16" id="Fre-zD-zRE"/>
+                        <constraint firstAttribute="bottom" secondItem="BoP-RG-Ywa" secondAttribute="bottom" constant="16" id="GIW-cy-JFN"/>
+                        <constraint firstItem="wyv-Ak-21w" firstAttribute="top" secondItem="dHv-Qy-R8f" secondAttribute="top" constant="16" id="JRq-0k-27V"/>
+                        <constraint firstItem="zNX-Fm-Di9" firstAttribute="leading" secondItem="ISZ-Za-bgG" secondAttribute="trailing" constant="8" id="NTh-hS-vDQ"/>
+                        <constraint firstItem="wyv-Ak-21w" firstAttribute="leading" secondItem="BoP-RG-Ywa" secondAttribute="trailing" constant="2" id="OMp-Uq-vCj"/>
+                        <constraint firstItem="Kde-7K-fsR" firstAttribute="leading" secondItem="daV-6v-8Jt" secondAttribute="trailing" constant="8" id="Q4b-RZ-uIK"/>
+                        <constraint firstAttribute="trailing" secondItem="TUy-AM-dKh" secondAttribute="trailing" constant="16" id="U76-QV-sMk"/>
+                        <constraint firstItem="LuH-xO-8P5" firstAttribute="leading" secondItem="Kde-7K-fsR" secondAttribute="trailing" constant="2" id="WdL-yr-RJD"/>
+                        <constraint firstItem="zNX-Fm-Di9" firstAttribute="top" secondItem="dHv-Qy-R8f" secondAttribute="top" constant="16" id="a5X-GT-Vw7"/>
+                        <constraint firstItem="ISZ-Za-bgG" firstAttribute="leading" secondItem="LuH-xO-8P5" secondAttribute="trailing" constant="8" id="aCX-8f-GRb"/>
+                        <constraint firstItem="Kde-7K-fsR" firstAttribute="top" secondItem="dHv-Qy-R8f" secondAttribute="top" constant="16" id="cyJ-ar-toB"/>
+                        <constraint firstItem="daV-6v-8Jt" firstAttribute="centerY" secondItem="dHv-Qy-R8f" secondAttribute="centerY" id="iSv-dJ-td1"/>
+                        <constraint firstAttribute="bottom" secondItem="TUy-AM-dKh" secondAttribute="bottom" constant="16" id="njO-r5-648"/>
+                        <constraint firstAttribute="bottom" secondItem="wyv-Ak-21w" secondAttribute="bottom" constant="16" id="oEO-iL-1Pd"/>
+                        <constraint firstAttribute="bottom" secondItem="zNX-Fm-Di9" secondAttribute="bottom" constant="16" id="oeR-cJ-zwP"/>
+                        <constraint firstItem="BoP-RG-Ywa" firstAttribute="top" secondItem="dHv-Qy-R8f" secondAttribute="top" constant="16" id="p3a-Qr-PzW"/>
+                        <constraint firstItem="LuH-xO-8P5" firstAttribute="top" secondItem="dHv-Qy-R8f" secondAttribute="top" constant="16" id="sYi-tl-7Ay"/>
+                        <constraint firstItem="BoP-RG-Ywa" firstAttribute="leading" secondItem="dHv-Qy-R8f" secondAttribute="leading" constant="16" id="vmY-pl-xuy"/>
+                        <constraint firstItem="TUy-AM-dKh" firstAttribute="top" secondItem="dHv-Qy-R8f" secondAttribute="top" constant="16" id="y47-1g-CED"/>
+                        <constraint firstItem="daV-6v-8Jt" firstAttribute="leading" secondItem="wyv-Ak-21w" secondAttribute="trailing" constant="8" id="y6T-xk-hOf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bUB-vS-7iy">
+                    <rect key="frame" x="60" y="214" width="294" height="209"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="88L-1w-n5e" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="129.5" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" verticalHuggingPriority="251" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="IP9-eV-aS8" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="232.5" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" verticalHuggingPriority="251" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="irO-2w-5KW" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="26.5" y="16" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="bGu-vj-KhG" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="232.5" y="121" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="wU4-8A-xbD" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="26.5" y="121" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" verticalHuggingPriority="251" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="MPA-DZ-4mp" customClass="NumberMorphView" customModule="NumberMorphView">
+                            <rect key="frame" x="129.5" y="121" width="35" height="50"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="56"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Linear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cR8-v7-VK9">
+                            <rect key="frame" x="26.5" y="74" width="35" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucP-Gh-BWT">
+                            <rect key="frame" x="231.5" y="74" width="37" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bounce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1w-yV-DuS">
+                            <rect key="frame" x="22.5" y="179" width="43" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AnticipateOvershoot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQw-ih-aEf">
+                            <rect key="frame" x="89" y="179" width="116" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CubicHermite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4d-65-35G">
+                            <rect key="frame" x="211" y="179" width="78" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overshoot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyj-5Y-2xr">
+                            <rect key="frame" x="117.5" y="74" width="59" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="IP9-eV-aS8" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="1.7" id="1fa-nY-MLW"/>
+                        <constraint firstItem="irO-2w-5KW" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="0.3" id="8As-Ng-LJf"/>
+                        <constraint firstItem="U4d-65-35G" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="1.7" id="DJH-Sl-HKb"/>
+                        <constraint firstItem="ucP-Gh-BWT" firstAttribute="top" secondItem="IP9-eV-aS8" secondAttribute="bottom" constant="8" id="DzM-xe-Nun"/>
+                        <constraint firstItem="u1w-yV-DuS" firstAttribute="top" secondItem="wU4-8A-xbD" secondAttribute="bottom" constant="8" id="ItY-fV-zYO"/>
+                        <constraint firstItem="U4d-65-35G" firstAttribute="top" secondItem="bGu-vj-KhG" secondAttribute="bottom" constant="8" id="Jlo-uL-AgO"/>
+                        <constraint firstItem="88L-1w-n5e" firstAttribute="top" secondItem="bUB-vS-7iy" secondAttribute="top" constant="16" id="LN9-Ha-ndH"/>
+                        <constraint firstItem="xyj-5Y-2xr" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" id="MON-Yl-X6O"/>
+                        <constraint firstItem="bGu-vj-KhG" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="1.7" id="NTO-Me-5wg"/>
+                        <constraint firstItem="sQw-ih-aEf" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" id="PLL-US-OdC"/>
+                        <constraint firstItem="wU4-8A-xbD" firstAttribute="top" secondItem="cR8-v7-VK9" secondAttribute="bottom" constant="32" id="UMm-cM-zDL"/>
+                        <constraint firstItem="IP9-eV-aS8" firstAttribute="top" secondItem="bUB-vS-7iy" secondAttribute="top" constant="16" id="Vrd-MC-Ynl"/>
+                        <constraint firstItem="u1w-yV-DuS" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="0.3" id="X2t-pT-cHt"/>
+                        <constraint firstItem="MPA-DZ-4mp" firstAttribute="top" secondItem="xyj-5Y-2xr" secondAttribute="bottom" constant="32" id="Ykg-Ht-F92"/>
+                        <constraint firstItem="xyj-5Y-2xr" firstAttribute="top" secondItem="88L-1w-n5e" secondAttribute="bottom" constant="8" id="e7Y-4r-3n0"/>
+                        <constraint firstItem="ucP-Gh-BWT" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="1.7" id="f7H-Kn-EZk"/>
+                        <constraint firstItem="irO-2w-5KW" firstAttribute="top" secondItem="bUB-vS-7iy" secondAttribute="top" constant="16" id="fJ1-ak-odR"/>
+                        <constraint firstItem="MPA-DZ-4mp" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" id="fj6-IC-Be1"/>
+                        <constraint firstAttribute="bottom" secondItem="u1w-yV-DuS" secondAttribute="bottom" constant="16" id="hOr-Vt-D6V"/>
+                        <constraint firstItem="wU4-8A-xbD" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="0.3" id="hn3-rb-gAy"/>
+                        <constraint firstAttribute="bottom" secondItem="U4d-65-35G" secondAttribute="bottom" constant="16" id="jcW-fD-fnH"/>
+                        <constraint firstItem="cR8-v7-VK9" firstAttribute="top" secondItem="irO-2w-5KW" secondAttribute="bottom" constant="8" id="lIT-lO-1i1"/>
+                        <constraint firstItem="cR8-v7-VK9" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" multiplier="0.3" id="laj-Tk-lkQ"/>
+                        <constraint firstItem="sQw-ih-aEf" firstAttribute="top" secondItem="MPA-DZ-4mp" secondAttribute="bottom" constant="8" id="pJF-Ei-8OL"/>
+                        <constraint firstItem="bGu-vj-KhG" firstAttribute="top" secondItem="ucP-Gh-BWT" secondAttribute="bottom" constant="32" id="qBf-eB-Hzt"/>
+                        <constraint firstItem="88L-1w-n5e" firstAttribute="centerX" secondItem="bUB-vS-7iy" secondAttribute="centerX" id="wO7-YT-aHd"/>
+                        <constraint firstAttribute="bottom" secondItem="sQw-ih-aEf" secondAttribute="bottom" constant="16" id="yS6-NT-mDi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="bUB-vS-7iy" firstAttribute="width" secondItem="dHv-Qy-R8f" secondAttribute="width" id="3i8-jX-cXP"/>
+                <constraint firstItem="dHv-Qy-R8f" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="673-u8-0cN"/>
+                <constraint firstItem="dHv-Qy-R8f" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xsw-8s-F9E"/>
+                <constraint firstItem="bUB-vS-7iy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ypc-NN-aiI"/>
+                <constraint firstItem="bUB-vS-7iy" firstAttribute="top" secondItem="dHv-Qy-R8f" secondAttribute="bottom" constant="32" id="uBN-Nv-KCZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="120"/>
+        </view>
+    </objects>
+</document>

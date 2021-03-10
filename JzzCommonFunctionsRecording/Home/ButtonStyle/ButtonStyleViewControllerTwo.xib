@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonStyleViewControllerTwo" customModule="JzzCommonFunctionsRecording" customModuleProvider="target">
+            <connections>
+                <outlet property="btn1" destination="qka-1d-vGV" id="NcI-ni-509"/>
+                <outlet property="btn2" destination="41m-kd-JxW" id="Nfr-wd-R57"/>
+                <outlet property="btn3" destination="UCl-Rl-bev" id="GKs-Ez-r2z"/>
+                <outlet property="btn4" destination="YJ6-Sn-OWz" id="VRv-b4-u63"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qka-1d-vGV">
+                    <rect key="frame" x="157" y="100" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="bT6-tT-NZn"/>
+                        <constraint firstAttribute="width" constant="100" id="dHe-86-uGM"/>
+                    </constraints>
+                    <state key="normal" title="测试" image="cardboard_1">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41m-kd-JxW">
+                    <rect key="frame" x="157" y="210" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="8g3-12-JnR"/>
+                        <constraint firstAttribute="width" constant="100" id="HMy-OH-Rqb"/>
+                    </constraints>
+                    <state key="normal" title="测试" image="cardboard">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCl-Rl-bev">
+                    <rect key="frame" x="157" y="320" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="4Nn-Mf-TK9"/>
+                        <constraint firstAttribute="height" constant="100" id="f5K-B6-NTa"/>
+                    </constraints>
+                    <state key="normal" title="测试" image="favor">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-Sn-OWz">
+                    <rect key="frame" x="157" y="430" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="ZLk-97-yYH"/>
+                        <constraint firstAttribute="width" constant="100" id="s8r-T4-GLO"/>
+                    </constraints>
+                    <state key="normal" title="测试" image="favor_1">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="41m-kd-JxW" firstAttribute="top" secondItem="qka-1d-vGV" secondAttribute="bottom" constant="10" id="ApO-fr-YPt"/>
+                <constraint firstItem="YJ6-Sn-OWz" firstAttribute="top" secondItem="UCl-Rl-bev" secondAttribute="bottom" constant="10" id="DZN-Zt-Bjw"/>
+                <constraint firstItem="YJ6-Sn-OWz" firstAttribute="centerX" secondItem="qka-1d-vGV" secondAttribute="centerX" id="Kwl-QU-7PQ"/>
+                <constraint firstItem="qka-1d-vGV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="L9y-IZ-UfP"/>
+                <constraint firstItem="41m-kd-JxW" firstAttribute="centerX" secondItem="qka-1d-vGV" secondAttribute="centerX" id="Vdk-9o-a7O"/>
+                <constraint firstItem="qka-1d-vGV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="dUB-be-fx5"/>
+                <constraint firstItem="UCl-Rl-bev" firstAttribute="top" secondItem="41m-kd-JxW" secondAttribute="bottom" constant="10" id="iBY-u7-E29"/>
+                <constraint firstItem="UCl-Rl-bev" firstAttribute="centerX" secondItem="qka-1d-vGV" secondAttribute="centerX" id="jz0-ZT-zZx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="120"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cardboard" width="23" height="23"/>
+        <image name="cardboard_1" width="23" height="23"/>
+        <image name="favor" width="23" height="23"/>
+        <image name="favor_1" width="23" height="23"/>
+    </resources>
+</document>
