@@ -11,15 +11,35 @@ import SnapKit
 
 class MineViewController: UIViewController {
 
+
+    lazy var lab_describe1 : UILabel = {
+        let lab = UILabel.init(frame: CGRect(x: 20, y: 10, width: 200, height: 30))
+        lab.backgroundColor = UIColor.colorWithHex(hexColor: 0xF5F5F5)
+        lab.textColor = UIColor.colorWithHex(hexColor: 0x808080)
+        lab.text = "部分圆角"
+        lab.textAlignment = .center
+        lab.font = UIFont.init(name: "HelveticaNeue-Light", size: 12)
+        return lab
+    }()
+
+    lazy var lab_describe2 : UILabel = {
+        let lab = UILabel.init(frame: CGRect(x: 20, y: 170, width: 200, height: 30))
+        lab.backgroundColor = UIColor.colorWithHex(hexColor: 0xF5F5F5)
+        lab.textColor = UIColor.colorWithHex(hexColor: 0x808080)
+        lab.text = "传入颜色返回纯色图片"
+        lab.textAlignment = .center
+        lab.font = UIFont.init(name: "HelveticaNeue-Light", size: 12)
+        return lab
+    }()
+    
     lazy var testView : UIView = {
-        let _view = UIView.init(frame: CGRect(x: 20, y: 10, width: 100, height: 100))
+        let _view = UIView.init(frame: CGRect(x: 40, y: 50, width: 100, height: 100))
         _view.backgroundColor = UIColor.red
         return _view
     }()
     
     lazy var imageView1 : UIImageView = {
-        let _view = UIImageView.init(frame: CGRect(x: 20, y: 140, width: 100, height: 100))
-        _view.backgroundColor = UIColor.red
+        let _view = UIImageView.init(frame: CGRect(x: 40, y: 210, width: 100, height: 100))
         return _view
     }()
     
@@ -29,14 +49,18 @@ class MineViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
-
+        
+        self.view.addSubview(self.lab_describe1)
         
         self.view.addSubview(self.testView)
-    
+        
         self.testView.roundCorners([.bottomLeft, .topRight], radius: 50)
+        
+        self.view.addSubview(self.lab_describe2)
 
         self.view.addSubview(self.imageView1)
 
+        self.imageView1.image = self.creatImageWithColor(color: .cyan)
         
 
         //view点击事件
@@ -51,6 +75,16 @@ class MineViewController: UIViewController {
         self.testView.backgroundColor = .yellow
     }
 
+    func creatImageWithColor(color:UIColor)->UIImage{
+       let rect = CGRect(x:0,y:0,width:1,height:1)
+       UIGraphicsBeginImageContext(rect.size)
+       let context = UIGraphicsGetCurrentContext()
+       context?.setFillColor(color.cgColor)
+       context!.fill(rect)
+       let image = UIGraphicsGetImageFromCurrentImageContext()
+       UIGraphicsEndImageContext()
+       return image!
+    }
 
 
     /*
